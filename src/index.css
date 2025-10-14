@@ -194,3 +194,135 @@ main {
   display: inline-block;
   padding-left: 10px;
 }
+
+.main-page-two-section {
+  background: var(--color-green);
+  padding: 111px 8%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-page-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 130px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.main-page-two__left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-page-two__headline {
+  font-family: Inter, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 52px;
+  letter-spacing: -0.76px;
+  color: var(--color-white-text);
+  margin-bottom: 30px;
+}
+
+.main-page-two__paragraph {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.36px;
+  color: var(--color-white-text);
+  margin-bottom: 60px;
+}
+
+.main-page-two__stats {
+  display: flex;
+  gap: 80px;
+}
+
+.stat-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-numbers {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.stat-number {
+  font-family: Inter, Leifa, sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 82px;
+  letter-spacing: -1.3px;
+  color: var(--color-white-text);
+}
+
+.stat-symbol {
+  font-family: Inter, Leifa, sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--color-white-text);
+  margin-bottom: 3px;
+}
+
+.stat-description {
+  font-family: Inter, Leifa, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--color-white-text);
+  margin: 0;
+}
+
+.main-page-two__right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-page-two__rectangle {
+  position: relative;
+  width: 530px;
+  height: 350px;
+  background: var(--color-lightblue);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons-arrow-down {
+  position: absolute;
+  width: 66px;
+  height: 66px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.oval {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #2e4fd7;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.path {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 45.62% 25.48% 52.17% 73.3%;
+  top: 24px;
+  left: 27px;
+}
