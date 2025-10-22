@@ -1,0 +1,66 @@
+.page__header {
+  background: var(--color-white);
+  justify-content: center;
+  display: flex;
+}
+
+.page__header .container {
+  width: auto; /* Ширина по контенту */
+  max-width: none; /* Убираем ограничения */
+}
+
+.header__inner {
+  display: flex;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.header__logo {
+  display: flex;
+  padding-right: 53px;
+}
+
+.logo__graphic {
+  position: relative;
+  width: 51px;
+  height: 38px;
+}
+
+.logo__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo__icon--primary {
+  z-index: 1;
+}
+
+.logo__icon--secondary {
+  transform: translate(6px, 4px);
+  z-index: 2;
+}
+
+.logo__text {
+  padding-left: 9px;
+  font-family: var(--second-family);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--text-color-black);
+}
+
+.header__nav-list {
+  display: flex;
+  gap: 31px;
+  font-family: var(--font-family);
+  color: var(--text-color-black-two);
+}
+
+.header__navigation {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 419px;
+}

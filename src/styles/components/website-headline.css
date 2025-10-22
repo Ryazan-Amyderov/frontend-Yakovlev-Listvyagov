@@ -1,0 +1,59 @@
+.website-headline {
+  padding: 145px 120px;
+}
+
+.website-headline__header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 112%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: var(--color-white);
+}
+
+.website-headline__inner {
+  display: flex;
+  gap: 105px;
+}
+
+.website-headline__description {
+  padding-top: 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #fff;
+  padding-right: 27%;
+}
+
+.website-headline__meeting-booking {
+  padding-top: 42px;
+  display: flex;
+  gap: 21px;
+  padding-right: 27%;
+  align-items: center;
+}
+
+.meeting-booking__book_label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.website-headline__logos {
+  display: flex;
+  gap: 19px 27px;
+  padding-top: 84px;
+}
+
+.website-headline__photo {
+  width: 24%;
+  height: auto;
+  display: block;
+  max-width: 100%;
+}

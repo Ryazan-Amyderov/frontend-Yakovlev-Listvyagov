@@ -1,0 +1,104 @@
+.website-headlinesample__inner {
+  padding: 109px 120px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.website-headlinesample__header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.website-headlinesample__description {
+  padding-top: 8px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.indicators-container {
+  padding-top: 36px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 33%;
+}
+
+.indicators-container__item {
+}
+
+.indicator__big-letter {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 114%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.indicator__small-letter {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.indicator-description {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.website-platform-features__inner {
+  padding-left: 138px;
+  padding-top: 111px;
+  padding-bottom: 111px;
+}
+
+.features-block {
+  display: grid;
+  grid-template-columns: 17% 17% 17%;
+  grid-template-rows: auto auto;
+  gap: 60px 30px;
+  padding-top: 68px;
+}
+
+.features-header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 119%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}
+
+.feature-header {
+  padding-top: 16px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.feature-description {
+  padding-top: 7px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--color-white);
+}

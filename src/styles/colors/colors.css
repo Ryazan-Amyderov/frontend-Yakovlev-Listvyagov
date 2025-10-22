@@ -1,10 +1,10 @@
 :root {
-  --color-white: #fefefe;
-  --color-black: #1a1a1a;
-  --color-blue: #2e4fd7;
-  --color-green: #052825;
-  --color-grey: #dedede;
-  --color-white-text: #fff;
-  --color-lightblue: #e7ebfc;
-  --color-track-grey: #b4b4b4;
+  --color-white: #fff;
+  --color-black: #1d1d1d;
+  --color-other-white: #e7ebfc;
+  --book-button-color: #2e4fd7;
+  --text-color-black: #1a1a1a;
+  --text-color-black-two: #1e1e1e;
+  --background-color-green: #052825;
+  --line-color: #b4b4b4;
 }
