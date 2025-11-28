@@ -1,0 +1,157 @@
+.headline {
+  padding: 145px 6.5%;
+}
+
+.headline__header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 112%;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.headline__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 52px;
+}
+
+.headline__description {
+  padding-top: 30px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: var(--main-text-color);
+  text-align: center;
+}
+
+.headline__actions {
+  padding-top: 42px;
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  justify-content: left;
+  flex-direction: column;
+}
+
+.headline__actions-label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--text-color-main);
+}
+
+.headline__content {
+  order: 2;
+}
+
+.headline__logos {
+  display: flex;
+  gap: 19px 27px;
+  padding-top: 34px;
+  justify-content: center;
+}
+
+.headline__photo {
+  width: 40%;
+  height: auto;
+  display: flex;
+  flex: 1;
+  max-width: 100%;
+  object-fit: contain;
+  order: 1;
+}
+
+@media (width <= 500px) {
+  .headline__header {
+    font-size: 26px;
+  }
+
+  .headline__logos {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (width >= 768px) {
+  .headline__header {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .headline__description {
+    font-size: 16px;
+    text-align: left;
+    padding-right: 27%;
+  }
+
+  .headline__actions-label {
+    font-size: 14px;
+  }
+
+  .headline__actions {
+    flex-direction: column;
+    align-items: first baseline;
+  }
+
+  .headline__logos {
+    justify-content: left;
+    padding-top: 84px;
+  }
+}
+
+@media (width >= 1024px) {
+  .headline__inner {
+    flex-direction: row;
+  }
+
+  .headline__header {
+    font-size: 48px;
+  }
+
+  .headline__description {
+    font-size: 18px;
+  }
+
+  .headline__photo {
+    justify-content: right;
+    order: 2;
+    width: 30%;
+  }
+
+  .headline__actions-label {
+    font-size: 16px;
+  }
+}
+
+@media (width >= 1280px) {
+  .headline__header {
+    font-size: 64px;
+  }
+
+  .headline__description {
+    font-size: 20px;
+  }
+
+  .headline__inner {
+    display: flex;
+    gap: 105px;
+  }
+
+  .headline__photo {
+    width: 24%;
+  }
+
+  .headline__actions {
+    flex-direction: row;
+    align-items: center;
+  }
+}

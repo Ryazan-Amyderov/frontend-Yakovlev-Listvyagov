@@ -1,6 +1,21 @@
-:root {
-  color-scheme: light;
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
 
-  --color-primary: var(--color-white);
-  --color-secondary: var(--color-black);
+    --main-text-color: #1e1e1e;
+    --color-black: #1d1d1d;
+    --main-text-color-other: #1e1e1e;
+    --book-button-color: #2e4fd7;
+    --secondary-text-color: #1a1a1a;
+    --secondary-text-color-other: #1e1e1e;
+    --background-color: #fff;
+    --header-background-color: #fefefe;
+    --line-color: #b4b4b4;
+    --success-story-background: #e7ebfc;
+    --button-text-color: #fff;
+    --goal-bg-color: #2e4fd7;
+    --goal-inner-color: #e7ebfc;
+    --goal-line-color: #2e4fd7;
+    --footer-arrow-color: #1e1e1e;
+  }
 }

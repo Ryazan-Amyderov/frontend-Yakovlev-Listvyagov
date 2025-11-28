@@ -1,0 +1,123 @@
+.success-story {
+  padding: 165px 6.5%;
+}
+
+.success-story__inner {
+  background: var(--success-story-background);
+  display: flex;
+  color: var(--secondary-text-color-other);
+  border-radius: 1px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.success-story__text-part {
+  padding: 32px 10px 10px;
+  order: 2;
+}
+
+.success-story__image-part {
+  order: 1;
+  padding-top: 0;
+  border-radius: 1px 0 0 1px;
+}
+
+.success-story__header {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+
+.success-story__text {
+  padding-top: 32px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 124%;
+  letter-spacing: -0.02em;
+}
+
+.success-story__logotype {
+  padding-top: 32px;
+}
+
+.success-story__redirection {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: #2e4fd7;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.success-story__redirection-label {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  letter-spacing: -0.02em;
+  color: var(--book-button-color);
+}
+
+.success-story__slider-checker {
+  padding-top: 30px;
+}
+
+@media (width >= 768px) {
+  .success-story__header {
+    font-size: 32px;
+  }
+
+  .success-story__text {
+    padding-top: 32px;
+    font-size: 24px;
+  }
+}
+
+@media (width >= 1024px) {
+  .success-story__inner {
+    flex-direction: row;
+  }
+
+  .success-story__image-part {
+    order: 2;
+  }
+
+  .success-story__text-part {
+    order: 1;
+  }
+}
+
+@media (width >= 1280px) {
+  .success-story__image-part {
+    padding-top: 118px;
+  }
+
+  .success-story__text-part {
+    padding: 118px 47px 118px 95px;
+  }
+
+  .success-story__header {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+
+  .success-story__text {
+    padding-top: 32px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 124%;
+    letter-spacing: -0.02em;
+  }
+}

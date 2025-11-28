@@ -1,0 +1,45 @@
+.logo {
+  display: flex;
+  padding-right: 0;
+}
+
+.logo__graphic {
+  position: relative;
+  width: 51px;
+  height: 38px;
+}
+
+.logo__icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.logo__icon--primary {
+  z-index: 1;
+}
+
+.logo__icon--secondary {
+  transform: translate(6px, 4px);
+  z-index: 2;
+}
+
+.logo__text {
+  padding-left: 9px;
+  font-family: var(--second-family);
+  font-size: 24px;
+  font-weight: 800;
+  color: var(--secondary-text-color);
+}
+
+@media (width >= 768px) {
+  .logo {
+    padding-right: 23px;
+  }
+}
+
+@media (width >= 1024px) {
+  .logo {
+    padding-right: 53px;
+  }
+}

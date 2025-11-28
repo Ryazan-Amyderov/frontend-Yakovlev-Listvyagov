@@ -1,5 +1,5 @@
 .closing-headline__inner {
-  padding: 100px 165px;
+  padding: 100px 6.5%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,25 +11,27 @@
   padding-top: 52px;
   gap: 30px;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .closing-headline__header {
   font-family: var(--font-family);
   font-weight: 700;
-  font-size: 52px;
+  font-size: 36px;
   line-height: 119%;
   letter-spacing: -0.02em;
-  color: var(--color-white);
+  color: var(--main-text-color);
 }
 
 .closing-headline__text {
-  padding-top: 24px;
+  padding-top: 16px;
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 18px;
   line-height: 156%;
   letter-spacing: -0.02em;
-  color: var(--color-white);
+  color: var(--main-text-color);
 }
 
 .closing-headline__button-wrapper {
@@ -37,32 +39,42 @@
   padding-bottom: 43px;
 }
 
-.line {
+.closing-headline__line {
   width: 93%;
   height: 2px;
   background: var(--line-color);
 }
 
-.headline-logos__item {
+.closing-headline__logos-item {
   height: 40px;
 }
 
-.Phillips {
+.closing-headline__logos-Phillips {
   padding-top: 12px;
 }
 
-.Logitech {
+.closing-headline__logos-Logitech {
   padding-top: 2px;
 }
 
-.Amazon {
+.closing-headline__logos-Amazon {
   padding-top: 11px;
 }
 
-.Facebook {
+.closing-headline__logos-Facebook {
   padding-top: 2px;
 }
 
-.Google {
+.closing-headline__logos-Google {
   padding-top: 1px;
+}
+
+@media (width >= 1024px) {
+  .closing-headline__header {
+    font-size: 52px;
+  }
+
+  .closing-headline__text {
+    padding-top: 24px;
+  }
 }
